@@ -138,6 +138,7 @@ const Video = () => {
               '&:hover': { bgcolor: '#d32f2f' },
             }}
             onClick={() => {
+              alert('Please check your device microphone and camera. Make sure that the mic and camera is working use this feature.');
               window.location.href = "https://video-conf-blue.vercel.app";
             }}
           >
