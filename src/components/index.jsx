@@ -138,7 +138,7 @@ const Video = () => {
               '&:hover': { bgcolor: '#d32f2f' },
             }}
             onClick={() => {
-              window.location.href = "https://github.com/Arstatine";
+              window.location.href = "https://video-conf-blue.vercel.app";
             }}
           >
             <CallEndIcon />
