@@ -77,9 +77,6 @@ const Video = () => {
         ]);
         client.publish(tracks);
       })
-      .catch((e) => {
-        alert('Error, please check your mic and camera. ');
-      });
 
     return () => {
       for (let localTrack of localTracks) {
@@ -141,7 +138,7 @@ const Video = () => {
               '&:hover': { bgcolor: '#d32f2f' },
             }}
             onClick={() => {
-              window.location = `/`;
+              window.location.href = "https://github.com/Arstatine";
             }}
           >
             <CallEndIcon />
