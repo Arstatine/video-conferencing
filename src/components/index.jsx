@@ -8,11 +8,9 @@ import AgoraRTC from 'agora-rtc-sdk-ng';
 
 import { VideoPlayer } from './VideoPlayer';
 
-const APP_ID = '80930d9463754831a7af493ff25d2296';
-const TOKEN =
-  process.env.TOKEN ||
-  '007eJxTYHhWKHVa4GPc82yL+pXpIYEV8Vd+sLy3+eK4hSd22zm1HHsFBgsDS2ODFEsTM2NzUxMLY8NE88Q0E0vjtDQj0xQjI0uzCves5IZARgarx8EsjAwQCOIzM4T4+TAwAAAJqB2P';
-const CHANNEL = process.env.CHANNEL || 'TNL';
+const APP_ID = 'Add your Agora Web SDK app id here...';
+const TOKEN = 'Add your Agora Web SDK token here...';
+const CHANNEL = 'Add your Agora Web SDK Channel name here...';
 
 const client = AgoraRTC.createClient({
   mode: 'rtc',
